@@ -1,0 +1,12 @@
+<mat-card class="example-card" (click)="goToDetail()">
+  <mat-card-header>
+    <mat-card-title>{{value.title}}</mat-card-title>
+    <mat-card-subtitle>{{value.author}}</mat-card-subtitle>
+  </mat-card-header>
+
+  <img mat-card-image [src]="value.urlToImage" [alt]="value.title">
+
+  <mat-card-content>
+    <p>{{value.description}}</p>
+  </mat-card-content>
+</mat-card>
