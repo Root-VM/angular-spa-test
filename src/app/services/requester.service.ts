@@ -5,7 +5,7 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class RequesterService {
-  apiUrl = 'http://newsapi.org/v2';
+  apiUrl = 'https://newsapi.org/v2';
   apiKey = '0fda0004807a41f8a876c77a5731f16d';
 
   constructor(private http: HttpClient) { }
